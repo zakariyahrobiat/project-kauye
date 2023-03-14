@@ -8,13 +8,15 @@ export default function FirstPost() {
       <div className="w-full md:w-9/12 lg:w-1/2 pt-3 md:pt-10 h-full">
         <div className="flex justify-between items-center text-left px-3">
           <div>
-            <p className="text-base font-normal text-black md:text-xl md:pb-5">
+            <p className="text-base font-normal text-black md:text-xl md:pb-5 font-urbanist">
               Welcome to <span className="text-button"> Kauye</span>
             </p>
-            <h1 className="font-semibold text-4xl text-black">SIGN UP</h1>
+            <h1 className="font-semibold text-4xl text-black font-urbanist">
+              SIGN UP
+            </h1>
           </div>
           <div>
-            <p className="text-ash font-normal text-xs md:text-xl">
+            <p className="text-ash font-normal text-xs md:text-xl font-urbanist">
               Have an <br /> account ? <br />
               <Link href="" className="text-blue">
                 {" "}
@@ -23,7 +25,7 @@ export default function FirstPost() {
             </p>
           </div>
         </div>
-        <p className="text-base font-semibold pt-10 pb-5 text-black md:text-xl md:pb-10">
+        <p className="text-base font-urbanist font-semibold pt-10 pb-5 text-black md:text-xl md:pb-10">
           Enter your username or email address
         </p>
         <form action="" onSubmit={handleSignIn} className="">
@@ -99,7 +101,7 @@ export default function FirstPost() {
               <input type="checkbox" name="terms" id="term" />
               <label
                 htmlFor="terms"
-                className="font-semibold text-ms text-terms md:text-xl "
+                className="font-semibold text-ms text-terms font-inter md:text-xl "
               >
                 By signing up, you agree to the{" "}
                 <Link href="" className="text-button">
@@ -110,7 +112,9 @@ export default function FirstPost() {
             </div>
           </div>
           <div className="absolute bottom-0 w-full left-0 flex justify-between items-center bg-button h-28 p-3 rounded-b-3xl">
-            <button className="text-base font-bold text-white">Sign up</button>
+            <button className="text-base font-bold text-white font-urbanist">
+              Sign up
+            </button>
             <img
               src="/images/Line.png"
               width={119}

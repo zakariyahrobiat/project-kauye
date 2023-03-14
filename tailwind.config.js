@@ -25,6 +25,10 @@ module.exports = {
         bold: "#040C22",
         light: "#363D4E",
       },
+      fontFamily: {
+        urbanist: ["Urbanist", "sans - serif"],
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
