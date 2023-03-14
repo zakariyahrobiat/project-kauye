@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import { Context } from "./context";
+
 import React from "react";
 import { useState, useContext, useRef } from "react";
 import { useRouter } from "next/router";
