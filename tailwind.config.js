@@ -21,6 +21,7 @@ module.exports = {
         input: "rgba(51, 57, 66, 0.02)",
         silver: "rgba(51, 57, 66, 0.2)",
         terms: "#131313",
+        background: "linear-gradient(170.28deg, #FFFFFF -9.44%, #F2F2F2 100%);",
       },
     },
   },
