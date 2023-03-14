@@ -43,7 +43,7 @@ const Verify = () => {
             name=""
             id=""
             placeholder="5"
-            className="input w-full  py-3 md:py-10 text-center text-bold rounded-lg placeholder:text-black placeholder:font-semibold font-semibold placeholder:text-xl text-xl md:placeholder:text-3xl md:text-3xl"
+            className="input w-full  py-3 md:py-10 text-center text-bold rounded-lg placeholder:text-black placeholder:font-semibold placeholder:text-xl text-xl md:placeholder:text-3xl md:text-3xl"
           />
         </div>
         <p className="absolute bottom-10 md:bottom-20 font-semibold text-base text-code md:text-xl">
