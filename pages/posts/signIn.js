@@ -4,8 +4,8 @@ import { useAppContext } from "../_app";
 export default function FirstPost() {
   const { data, handleForm, handleSignIn } = useAppContext();
   return (
-    <div className="flex justify-center items-center text-center w-screen ">
-      <div className="w-full md:w-9/12 lg:w-1/2 pt-3 md:p-0">
+    <div className="flex justify-center items-center text-center w-screen relative h-screen">
+      <div className="w-full md:w-9/12 lg:w-1/2 pt-3 md:p-0 h-full">
         <div className="flex justify-between items-center text-left px-3">
           <div>
             <p className="text-base font-normal text-black">
@@ -26,7 +26,7 @@ export default function FirstPost() {
         <p className="text-base font-semibold pt-10 pb-5 text-black">
           Enter your username or email address
         </p>
-        <form action="" onSubmit={handleSignIn}>
+        <form action="" onSubmit={handleSignIn} className="">
           <div className="p-3 md:p-0">
             <div className="mb-4 relative">
               <input
@@ -109,7 +109,7 @@ export default function FirstPost() {
               </label>
             </div>
           </div>
-          <div className="flex justify-between items-center bg-button mt-24 h-28 p-3 rounded-b-3xl">
+          <div className="absolute bottom-0 w-full left-0 flex justify-between items-center bg-button h-28 p-3 rounded-b-3xl">
             <button className="text-base font-bold text-white">Sign up</button>
             <img
               src="/images/Line.png"
